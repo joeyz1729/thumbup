@@ -1,0 +1,35 @@
+service User {
+	@handler Register
+	post /api/user/register(RegisterRequest) returns(RegisterResponse)
+
+	@handler Login
+	post /api/user/login(LoginRequest) returns (LoginResponse)
+
+	@handler Info
+	get /api/user/info returns(InfoResponse)
+}
+
+type RegisterRequest {
+	Name     string `json:"name"`
+	Password string `json:"password"`
+}
+
+type RegisterResponse {
+	Id   int64  `json:"id"`
+	Name string `json:"name"`
+}
+
+type LoginRequest {
+	Name     string `json:"name"`
+	Password string `json:"password"`
+}
+
+type LoginResponse {
+	Id           int64  `json:"id"`
+	AccessToken  string `json:"access_token"`
+	AccessExpire int64  `json:"access_expire"`
+}
+
+type InfoResponse {
+	Name string `json:"name"`
+}

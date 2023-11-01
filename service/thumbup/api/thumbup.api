@@ -1,0 +1,15 @@
+service Thumbup {
+	@handler Action
+	post /api/thumbup/action (ActionRequest) returns(ActionResponse)
+}
+
+type ActionRequest {
+	UserId     int64 `json:"user_id"`
+	VideoId    int64 `json:"video_id"`
+	ActionType int32 `json:"action_type"`
+}
+
+type ActionResponse {
+	StatusCode int32  `json:"status_code"`
+	StatusMsg  string `json:"status_msg"`
+}
