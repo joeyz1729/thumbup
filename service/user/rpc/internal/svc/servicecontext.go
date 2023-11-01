@@ -1,6 +1,6 @@
 package svc
 
-import "zouyi/thumbup/service/user/rpc/internal/config"
+import "thumbup/service/user/rpc/internal/config"
 
 type ServiceContext struct {
 	Config config.Config

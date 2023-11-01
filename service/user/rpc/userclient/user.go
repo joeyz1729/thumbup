@@ -6,7 +6,7 @@ package userclient
 import (
 	"context"
 
-	"zouyi/thumbup/service/user/rpc/types/user"
+	"thumbup/service/user/rpc/types/user"
 
 	"github.com/zeromicro/go-zero/zrpc"
 	"google.golang.org/grpc"

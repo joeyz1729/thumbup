@@ -3,8 +3,8 @@ package logic
 import (
 	"context"
 
-	"zouyi/thumbup/service/user/api/internal/svc"
-	"zouyi/thumbup/service/user/api/internal/types"
+	"thumbup/service/user/api/internal/svc"
+	"thumbup/service/user/api/internal/types"
 
 	"github.com/zeromicro/go-zero/core/logx"
 )

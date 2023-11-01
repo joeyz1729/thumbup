@@ -4,10 +4,10 @@ import (
 	"flag"
 	"fmt"
 
-	"zouyi/thumbup/service/user/rpc/internal/config"
-	"zouyi/thumbup/service/user/rpc/internal/server"
-	"zouyi/thumbup/service/user/rpc/internal/svc"
-	"zouyi/thumbup/service/user/rpc/types/user"
+	"thumbup/service/user/rpc/internal/config"
+	"thumbup/service/user/rpc/internal/server"
+	"thumbup/service/user/rpc/internal/svc"
+	"thumbup/service/user/rpc/types/user"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/core/service"

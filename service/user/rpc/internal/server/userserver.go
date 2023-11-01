@@ -6,9 +6,9 @@ package server
 import (
 	"context"
 
-	"zouyi/thumbup/service/user/rpc/internal/logic"
-	"zouyi/thumbup/service/user/rpc/internal/svc"
-	"zouyi/thumbup/service/user/rpc/types/user"
+	"thumbup/service/user/rpc/internal/logic"
+	"thumbup/service/user/rpc/internal/svc"
+	"thumbup/service/user/rpc/types/user"
 )
 
 type UserServer struct {

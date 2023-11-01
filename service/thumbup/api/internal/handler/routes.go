@@ -4,7 +4,7 @@ package handler
 import (
 	"net/http"
 
-	"zouyi/thumbup/service/thumbup/api/internal/svc"
+	"thumbup/service/thumbup/api/internal/svc"
 
 	"github.com/zeromicro/go-zero/rest"
 )

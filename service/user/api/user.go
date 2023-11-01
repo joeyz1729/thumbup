@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 
-	"zouyi/thumbup/service/user/api/internal/config"
-	"zouyi/thumbup/service/user/api/internal/handler"
-	"zouyi/thumbup/service/user/api/internal/svc"
+	"thumbup/service/user/api/internal/config"
+	"thumbup/service/user/api/internal/handler"
+	"thumbup/service/user/api/internal/svc"
 
 	"github.com/zeromicro/go-zero/core/conf"
 	"github.com/zeromicro/go-zero/rest"

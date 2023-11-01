@@ -1,7 +1,7 @@
 package svc
 
 import (
-	"zouyi/thumbup/service/thumbup/api/internal/config"
+	"thumbup/service/thumbup/api/internal/config"
 )
 
 type ServiceContext struct {

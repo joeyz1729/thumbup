@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/zeromicro/go-zero/rest/httpx"
-	"zouyi/thumbup/service/thumbup/api/internal/logic"
-	"zouyi/thumbup/service/thumbup/api/internal/svc"
-	"zouyi/thumbup/service/thumbup/api/internal/types"
+	"thumbup/service/thumbup/api/internal/logic"
+	"thumbup/service/thumbup/api/internal/svc"
+	"thumbup/service/thumbup/api/internal/types"
 )
 
 func ActionHandler(svcCtx *svc.ServiceContext) http.HandlerFunc {
